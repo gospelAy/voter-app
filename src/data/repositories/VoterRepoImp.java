@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VoterRepoImp implements VoterRepository {
-    private static final List<Voter> voterslist = new ArrayList<>();
+     static List<Voter> voterslist = new ArrayList<>();
     private int count = 0;
 
     @Override

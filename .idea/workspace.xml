@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0feb82e0-3eb2-4a04-84e6-c3e1feecea13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Voters App.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/VoterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CandidateRepoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/CandidateRepoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/VoterRepoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/VoterRepoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/VoterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/VoterServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -72,7 +70,7 @@
       <recent name="services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFindById">
+  <component name="RunManager" selected="JUnit.VoterServiceImplTest.testThatVoterCanVote">
     <configuration name="CandidateRepoImpTest.testThatCandidateCanBeFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Voters App" />
       <extension name="coverage">
@@ -154,9 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanVote" />
         <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFindById" />
         <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFoundByParty" />
-        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanVote" />
         <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanRegisterToVote" />
         <item itemvalue="JUnit.VoterServiceImplTest" />
       </list>
@@ -215,6 +213,9 @@
       <workItem from="1682962294947" duration="91000" />
       <workItem from="1682969515681" duration="97000" />
       <workItem from="1683327679482" duration="187000" />
+      <workItem from="1683537879836" duration="457000" />
+      <workItem from="1683540881276" duration="33000" />
+      <workItem from="1683564713489" duration="4360000" />
     </task>
     <servers />
   </component>

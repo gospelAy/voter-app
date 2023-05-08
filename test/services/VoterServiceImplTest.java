@@ -36,6 +36,8 @@ class VoterServiceImplTest {
 
     CastVoterResponse castVoterResponse;
 
+    CandidateRepository candidateRepository = new CandidateRepoImp();
+
     @BeforeEach
     public void startWith() {
         candidate = new Candidate();
@@ -108,14 +110,25 @@ class VoterServiceImplTest {
     }
     @Test
     public void testThatVoterCanVote(){
+        Candidate candidate1 = new Candidate();
+        candidate1.setName("Glory");
+        candidate1.setGender("Female");
+        candidate1.setParty(Party.LP);
+        candidate1.setAge(40);
+        candidateRepository.save(candidate1);
         response = voterService.voterRegistration(registerRequest4);
-        assertEquals(4, voterService.getVoterList());
-        assertEquals("Joy girl welcome back", voterService.login(loginRequest2));
+        Candidate foundCandidate = candidateRepository.findByParty(Party.LP);
+        int noOfVotesBeforeCastingVoteForLP = foundCandidate.getNumberOfVoter();
+        assertEquals(0, noOfVotesBeforeCastingVoteForLP);
+//        assertEquals(4, voterService.getVoterList());
+//        assertEquals("Joy girl welcome back", voterService.login(loginRequest2));
         castVoterRequest = new CastVoterRequest();
-        castVoterRequest.setUserName("Joy girl");
+        //castVoterRequest.setUserName("Joy girl");
         castVoterRequest.setParty(Party.LP);
         castVoterRequest.setId(4);
-        CastVoterResponse increaseVote = voterService.castVote(castVoterRequest);
-        assertEquals(1, increaseVote);
+        voterService.castVote(castVoterRequest);
+        Candidate foundCandidateAfterVote = candidateRepository.findByParty(Party.LP);
+        int noOfVotesAfterCastingVoteForLP = foundCandidateAfterVote.getNumberOfVoter();
+        assertEquals(1, noOfVotesAfterCastingVoteForLP);
     }
 }

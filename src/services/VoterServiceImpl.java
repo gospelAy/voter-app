@@ -1,6 +1,7 @@
 package services;
 
 import data.models.Candidate;
+import data.models.Party;
 import data.models.Voter;
 import data.repositories.CandidateRepoImp;
 import data.repositories.CandidateRepository;
@@ -20,6 +21,7 @@ public class VoterServiceImpl implements VoterService {
 
     VoterRepository voterRepository = new VoterRepoImp();
     CandidateRepository candidateRepository = new CandidateRepoImp();
+    CandidateService candidateService = new CandidateServiceImpl();
     Voter registerVoter;
 
     @Override
@@ -61,7 +63,7 @@ public class VoterServiceImpl implements VoterService {
         CastVoterResponse castVoterResponse = new CastVoterResponse();
         Mapper.map(request, castVoterResponse);
         Voter findVoter = voterRepository.findById(request.getId());
-        Candidate findCandidate = candidateRepository.findByParty(request.getParty());
+        Candidate findCandidate = candidateService.findByParty(request.getParty());
        if (findVoter.isVoted()){
            throw new IllegalArgumentException("VOTER ALREADY VOTED");
        } else if (findCandidate == null) {

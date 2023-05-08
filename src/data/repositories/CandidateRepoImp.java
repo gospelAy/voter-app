@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CandidateRepoImp implements CandidateRepository{
-    List<Candidate> candidateList = new ArrayList<>();
+    static List<Candidate> candidateList = new ArrayList<>();
     private int count;
 
     @Override
