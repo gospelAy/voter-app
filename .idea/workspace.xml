@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0feb82e0-3eb2-4a04-84e6-c3e1feecea13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voters App.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/VoterController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NGze6iP0XgXuJ2pjiwVa2NcX4F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/ADMIN/IdeaProjects/Voters App/test/data/repositories&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="data.models" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="data.repositories" />
+      <recent name="services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFindById">
+    <configuration name="CandidateRepoImpTest.testThatCandidateCanBeFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Voters App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.CandidateRepoImpTest" />
+      <option name="METHOD_NAME" value="testThatCandidateCanBeFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CandidateRepoImpTest.testThatCandidateCanBeFoundByParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Voters App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.CandidateRepoImpTest" />
+      <option name="METHOD_NAME" value="testThatCandidateCanBeFoundByParty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Voters App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.VoterServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterServiceImplTest.testThatVoterCanRegisterToVote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Voters App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.VoterServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatVoterCanRegisterToVote" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterServiceImplTest.testThatVoterCanVote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Voters App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.VoterServiceImplTest" />
+      <option name="METHOD_NAME" value="testThatVoterCanVote" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFindById" />
+        <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFoundByParty" />
+        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanVote" />
+        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanRegisterToVote" />
+        <item itemvalue="JUnit.VoterServiceImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0feb82e0-3eb2-4a04-84e6-c3e1feecea13" name="Changes" comment="" />
+      <created>1679305304509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679305304509</updated>
+      <workItem from="1679305306442" duration="1762000" />
+      <workItem from="1680672510338" duration="8898000" />
+      <workItem from="1680853374774" duration="2957000" />
+      <workItem from="1680892232962" duration="7486000" />
+      <workItem from="1680941356683" duration="5954000" />
+      <workItem from="1681023561227" duration="108000" />
+      <workItem from="1681023690631" duration="4676000" />
+      <workItem from="1681031761975" duration="21904000" />
+      <workItem from="1681114069717" duration="12513000" />
+      <workItem from="1681213083306" duration="3436000" />
+      <workItem from="1681335721643" duration="15341000" />
+      <workItem from="1681388027679" duration="6087000" />
+      <workItem from="1681429600103" duration="59000" />
+      <workItem from="1681451285896" duration="62000" />
+      <workItem from="1681456747330" duration="1393000" />
+      <workItem from="1681503058187" duration="12319000" />
+      <workItem from="1681604009011" duration="9867000" />
+      <workItem from="1681634841818" duration="11963000" />
+      <workItem from="1681732721634" duration="893000" />
+      <workItem from="1681735259773" duration="122000" />
+      <workItem from="1681747747516" duration="9000" />
+      <workItem from="1681801616871" duration="1652000" />
+      <workItem from="1681810120583" duration="6000" />
+      <workItem from="1681810186444" duration="11517000" />
+      <workItem from="1681850376503" duration="19394000" />
+      <workItem from="1681947492187" duration="37000" />
+      <workItem from="1682011814563" duration="10718000" />
+      <workItem from="1682090683156" duration="369000" />
+      <workItem from="1682107486848" duration="10301000" />
+      <workItem from="1682161794020" duration="4449000" />
+      <workItem from="1682193113565" duration="221000" />
+      <workItem from="1682236291851" duration="123000" />
+      <workItem from="1682339176556" duration="7803000" />
+      <workItem from="1682427415672" duration="1669000" />
+      <workItem from="1682474837936" duration="30000" />
+      <workItem from="1682531447129" duration="4926000" />
+      <workItem from="1682597693217" duration="2203000" />
+      <workItem from="1682613029025" duration="3478000" />
+      <workItem from="1682673160763" duration="1045000" />
+      <workItem from="1682749178059" duration="13000" />
+      <workItem from="1682956523360" duration="4758000" />
+      <workItem from="1682962131488" duration="82000" />
+      <workItem from="1682962294947" duration="91000" />
+      <workItem from="1682969515681" duration="97000" />
+      <workItem from="1683327679482" duration="187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
