@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0feb82e0-3eb2-4a04-84e6-c3e1feecea13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/repositories/CandidateRepoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/CandidateRepoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/repositories/VoterRepoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/VoterRepoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/services/VoterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/VoterServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voters App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Voters App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/models/Voter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2NGze6iP0XgXuJ2pjiwVa2NcX4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,16 +58,21 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/ADMIN/IdeaProjects/Voters App/test/data/repositories&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/IdeaProjects/Voters App&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="data.models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\IdeaProjects\Voters App" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -215,7 +227,15 @@
       <workItem from="1683327679482" duration="187000" />
       <workItem from="1683537879836" duration="457000" />
       <workItem from="1683540881276" duration="33000" />
-      <workItem from="1683564713489" duration="4360000" />
+      <workItem from="1683564713489" duration="4689000" />
+      <workItem from="1683912713665" duration="2046000" />
+      <workItem from="1683976722695" duration="44000" />
+      <workItem from="1684343297730" duration="33000" />
+      <workItem from="1684347710216" duration="10000" />
+      <workItem from="1684399429175" duration="78000" />
+      <workItem from="1684426484971" duration="31000" />
+      <workItem from="1684431585033" duration="21000" />
+      <workItem from="1684878129569" duration="2311000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,10 @@
 package data.models;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+
 public class Voter {
     private int id;
     private String firstName;
