@@ -1,7 +1,6 @@
 package services;
 
 import data.models.Candidate;
-import data.models.Party;
 import data.models.Voter;
 import data.repositories.CandidateRepoImp;
 import data.repositories.CandidateRepository;

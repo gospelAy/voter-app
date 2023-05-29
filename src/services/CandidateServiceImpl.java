@@ -4,8 +4,6 @@ import data.models.Candidate;
 import data.models.Party;
 import data.repositories.CandidateRepoImp;
 import data.repositories.CandidateRepository;
-import data.repositories.VoterRepoImp;
-import data.repositories.VoterRepository;
 import dtos.request.CandidateRequest;
 import dtos.response.CandidateResponse;
 import utils.Mapper;
@@ -28,7 +26,7 @@ public class CandidateServiceImpl implements CandidateService {
     public Candidate findCandidateById(int id) {
         Candidate findCandidate = candidateRepository.findById(id);
         if ( findCandidate == null){
-            throw  new IllegalArgumentException("Voter does not exist");
+            throw  new IllegalArgumentException("Candidate does not exist");
         }
         CandidateResponse response = new CandidateResponse();
         Mapper.map(findCandidate, response);
