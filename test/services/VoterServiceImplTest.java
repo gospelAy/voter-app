@@ -17,7 +17,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class VoterServiceImplTest {
-
     Candidate candidate;
     CastVoterRequest castVoterRequest;
     LoginRequest loginRequest;
@@ -53,6 +52,7 @@ class VoterServiceImplTest {
         registerRequest.setVotePassword("123bu23");
         registerRequest.setUserName("Sticks Taylor");
         response = voterService.voterRegistration(registerRequest);
+
 
         registerRequest1 = new RegisterRequest();
         registerRequest1.setAge(39);
@@ -102,12 +102,14 @@ class VoterServiceImplTest {
         assertEquals(3, voterService.getVoterList());
         System.out.println(voterService.getVoterList());
     }
+
     @Test
     public void testThatVoterHasToLoginBeforeVoting() {
         loginResponse = new LoginResponse();
         response = voterService.voterRegistration(registerRequest2);
         assertEquals("GP Doskey welcome back", voterService.login(loginRequest));
     }
+
     @Test
     public void testThatVoterCanVote(){
         Candidate candidate1 = new Candidate();

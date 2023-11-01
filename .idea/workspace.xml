@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0feb82e0-3eb2-4a04-84e6-c3e1feecea13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CandidateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CandidateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/VoterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/CandidateServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/CandidateServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/VoterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/VoterServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <recent name="services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VoterServiceImplTest.testThatVoterCanVote">
+  <component name="RunManager" selected="JUnit.CandidateServiceImplTest">
     <configuration name="CandidateRepoImpTest.testThatCandidateCanBeFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Voters App" />
       <extension name="coverage">
@@ -97,7 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CandidateRepoImpTest.testThatCandidateCanBeFoundByParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CandidateServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Voters App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CandidateServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoterRepoImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Voters App" />
       <extension name="coverage">
         <pattern>
@@ -106,9 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.CandidateRepoImpTest" />
-      <option name="METHOD_NAME" value="testThatCandidateCanBeFoundByParty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.VoterRepoImpTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,22 +138,6 @@
       <option name="PACKAGE_NAME" value="services" />
       <option name="MAIN_CLASS_NAME" value="services.VoterServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoterServiceImplTest.testThatVoterCanRegisterToVote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Voters App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.VoterServiceImplTest" />
-      <option name="METHOD_NAME" value="testThatVoterCanRegisterToVote" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanVote" />
-        <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFindById" />
-        <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFoundByParty" />
-        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanRegisterToVote" />
+        <item itemvalue="JUnit.CandidateServiceImplTest" />
         <item itemvalue="JUnit.VoterServiceImplTest" />
+        <item itemvalue="JUnit.VoterServiceImplTest.testThatVoterCanVote" />
+        <item itemvalue="JUnit.VoterRepoImpTest" />
+        <item itemvalue="JUnit.CandidateRepoImpTest.testThatCandidateCanBeFindById" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +235,20 @@
       <workItem from="1685035606484" duration="250000" />
       <workItem from="1685134420064" duration="4576000" />
       <workItem from="1685284780154" duration="18000" />
-      <workItem from="1685364234161" duration="11536000" />
+      <workItem from="1685364234161" duration="14956000" />
+      <workItem from="1685464756184" duration="1797000" />
+      <workItem from="1685701413568" duration="609000" />
+      <workItem from="1686489103324" duration="501000" />
+      <workItem from="1686550970405" duration="172000" />
+      <workItem from="1689871222685" duration="169000" />
+      <workItem from="1690236169711" duration="73000" />
+      <workItem from="1691105745760" duration="48000" />
+      <workItem from="1692201675697" duration="1350000" />
+      <workItem from="1692431760072" duration="48000" />
+      <workItem from="1692725106355" duration="212000" />
+      <workItem from="1696093872790" duration="56000" />
+      <workItem from="1696188582624" duration="190000" />
+      <workItem from="1696243247421" duration="75000" />
     </task>
     <servers />
   </component>

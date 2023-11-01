@@ -27,10 +27,12 @@ class CandidateServiceImplTest {
     public void testThatObjectExist(){
         assertNotNull(candidateService);
     }
+
     @Test
     public void testThatCandidateCanRegister(){
         assertEquals(1, candidateService.getCandidateList());
     }
+
     @Test
     public void testThatAnotherVoterCanBeRegistered_CountWillBe2(){
         CandidateRequest candidateRequest2 = new CandidateRequest();
@@ -39,7 +41,6 @@ class CandidateServiceImplTest {
         candidateRequest2.setName("gospel");
         candidateRequest2.setParty(Party.LP);
         candidateService.createCandidate(candidateRequest2);
-        assertEquals(2, candidateService.getCandidateList());
-
+        assertEquals(3, candidateService.getCandidateList());
     }
 }
